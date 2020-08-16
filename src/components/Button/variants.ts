@@ -1,6 +1,5 @@
 import { variant, VariantArgs } from "styled-system";
 import theme from "../../theme";
-import { NONAME } from "dns";
 
 const { colors, tintedColors, radii, fontSizes, fonts } = theme;
 
@@ -70,27 +69,6 @@ export const type = variant({
         bg: tintedColors.red,
       },
     },
-    // outline: {
-    //   // border: `1px solid ${colorTheme[props.appearance]}`,
-    //   // color: colorTheme[props.appearance],
-    //   backgroundColor: "transparent",
-    //   textTransform: "uppercase",
-    //   ...common,
-    //   "&:hover": {
-    //     // bg: colorTheme[`lighter-${props.appearance}`]
-    //   }
-    // },
-    // text: {
-    //   border: 0,
-    //   // color: colorTheme[props.appearance],
-    //   backgroundColor: "transparent",
-    //   textTransform: "uppercase",
-    //   fontWeight: 500,
-    //   ...common,
-    //   "&:hover": {
-    //     // bg: colorTheme[`lighter-${props.appearance}`]
-    //   }
-    // }
   },
 });
 
