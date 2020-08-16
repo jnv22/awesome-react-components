@@ -11,7 +11,6 @@ describe("Button tests", () => {
 
   it("calls onclick prop", () => {
     const onClick = jest.fn();
-
     const label = "Submit";
     const { getByText } = render(<Button label={label} onClick={onClick} />);
     fireEvent.click(

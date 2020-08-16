@@ -11,9 +11,7 @@ export interface ButtonProps {
 }
 
 const StyledButton = styled("button")(space, type, size);
-/**
- * Primary UI component for user interaction
- */
+
 export const Button: React.FC<ButtonProps> = ({
   label,
   variant = "primary",
