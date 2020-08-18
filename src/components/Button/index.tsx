@@ -3,14 +3,17 @@ import styled from "@emotion/styled";
 import { space } from "styled-system";
 import { type, size } from "./variants";
 
-export interface ButtonProps {
+interface StyledButtonProps {
   variant?: string;
-  size?: "small" | "medium" | "large";
-  label: string;
+  size: "small" | "medium" | "large";
   onClick?: () => void;
 }
 
-const StyledButton = styled("button")(space, type, size);
+const StyledButton = styled("button")<StyledButtonProps>(space, type, size);
+
+export interface ButtonProps extends StyledButtonProps {
+  label: string;
+}
 
 export const Button: React.FC<ButtonProps> = ({
   label,
