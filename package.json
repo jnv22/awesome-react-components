@@ -36,15 +36,6 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "plugin:testing-library/react"
-    ],
-    "plugins": [
-      "testing-library"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -55,11 +46,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
-  },
-  "jest": {
-    "setupFilesAfterEnv": [
-      "<rootDir>/src/setupTests.ts"
     ]
   },
   "devDependencies": {

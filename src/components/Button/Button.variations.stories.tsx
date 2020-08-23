@@ -5,7 +5,7 @@ import { Story, Meta } from "@storybook/react/types-6-0";
 import { Button, ButtonProps } from ".";
 
 export default {
-  title: "Example/Button",
+  title: "Components/Button/variations",
   component: Button,
 } as Meta;
 
@@ -38,15 +38,3 @@ Error.args = {
   size: "small",
   label: "Button",
 };
-
-// export const Large = Template.bind({});
-// Large.args = {
-//   size: 'large',
-//   label: 'Button',
-// };
-
-// export const Small = Template.bind({});
-// Small.args = {
-//   size: 'small',
-//   label: 'Button',
-// };

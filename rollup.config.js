@@ -11,13 +11,7 @@ export default {
   },                        
   plugins: [                         
        peerDepsExternal(),
-       ts(),
-      //  resolve({                          
-      //       extensions: [                           
-      //            ".js",                            
-      //            ".jsx"                          
-      //       ]                         
-      //  }),                         
+       ts(),                         
        babel({                          
             exclude: "node_modules/**",
             babelHelpers: 'runtime'                        

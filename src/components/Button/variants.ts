@@ -13,12 +13,12 @@ export const size = variant({
     },
     medium: {
       fontSize: fontSizes[2],
-      px: 6,
+      px: 5,
       py: 3,
     },
     large: {
       fontSize: fontSizes[3],
-      px: 7,
+      px: 6,
       py: 4,
     },
   },
